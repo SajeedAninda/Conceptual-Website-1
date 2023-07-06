@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER PART CSS CODE  */
+.header {
+    height: 10vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.253);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .header-icon img {
+    width: 120px;
+    cursor: pointer;
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.header-links ul li {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(77, 70, 70);
+    cursor: pointer;
+}
+
+.header-links ul li:hover {
+    color: #FF0000;
+    transition: 0.2s;
+}
