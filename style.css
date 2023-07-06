@@ -106,8 +106,6 @@
     font-weight: bolder;
     padding-top: 30px;
     color: white;
-    text-decoration: underline;
-    text-underline-offset: 10px;
 }
 
 .about-us-section {
@@ -166,8 +164,6 @@
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 30px;
-    text-decoration: underline;
-    text-underline-offset: 10px;
 }
 .box-container{
     display: flex;
@@ -179,8 +175,9 @@
     text-align: center;
     width: 280px;
     height: 360px;
-    box-shadow: 5px 5px 15px rgb(12, 48, 82);
+    box-shadow: 10px 10px 25px rgb(12, 48, 82);
     padding: 30px;
+    background: linear-gradient(215deg, rgb(231, 176, 208), rgb(176, 229, 233));;
 }
 .box:hover{
     width: 300px;
